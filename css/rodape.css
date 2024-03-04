@@ -1,0 +1,35 @@
+.rodape {
+    height: auto;
+    padding: .5rem 2rem;
+    color: var(--cor-white);
+
+    background: var(--cor-primary-variant);
+}
+
+.rodape .container-limite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    
+    .rodape--texto {
+        margin-bottom: .7rem;
+    }
+    
+    .rodape--redes-sociais {
+        text-align: end;
+        img {
+            display: inline-block;
+            width: 1.9rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape .container-limite {
+        flex-direction: row;
+    }
+
+}

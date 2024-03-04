@@ -6,8 +6,14 @@
 /***************** sets *****************/
 @import url(set.css);
 
+/***************** animacoes *****************/
+@import url(animacoes.css);
+
 /***************** cabeçalho *****************/
 @import url(cabecalho.css);
+
+/***************** MAIN *****************/
+@import url(main-home.css);
 
 /***************** rodapé *****************/
 @import url(rodape.css);
