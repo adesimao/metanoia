@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metanoia | Cadastre-se</title>
+    <link rel="shortcut icon" href="materiais/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="cadastre">
+    <script src="js/top.js"></script>
+
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="form-logo">
+                    <img class="cadastro" src="materiais/icon/logo.svg" alt="logo do site">
+                    <h2>Faça o seu cadastro</h2>
+                </div>
+
+                <form action="cadastro.php" method="post">
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" autocomplete="username" required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="campo">
+                        <input type="text" name="sobrenome" id="sobrenome" autocomplete="username" required>
+                        <label for="sobrenome">Sobrenome</label>
+                    </div>
+                    <div class="campo">
+                        <input type="email" name="email" id="email" autocomplete="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="campo">                        
+                        <input type="tel" name="tel" id="tel" minlength="9" maxlength="9" autocomplete="tel" required>
+                        <label for="tel">Telefone</label>
+                    </div>
+
+                    <input type="submit" value="Cadastrar" class="submit">
+                </form>
+                <a href="#" class="form">
+                    Esqueceu sua senha
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>    
+</body>
+</html>

@@ -8,7 +8,8 @@ header.innerHTML =
         <nav>
             <a href="index.html">HOME</a>
             <a href="marcas.html">MARCAS</a>
-            <a href="novidades.html">NOVIDADES</a>
+            <a href="projetos.html">PROJETOS</a>
+            <a href="cadastre.html">CADASTRE-SE</a>
             <a href="sobre.html">SOBRE NOS</a>
         </nav>
     </div>

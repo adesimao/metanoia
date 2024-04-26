@@ -1,0 +1,52 @@
+body#projetos {
+    background: lightgrey;
+
+    main {
+        padding:  4%;
+    }
+
+    .container {
+        padding-left: 1rem;
+    }
+
+    .box {
+        display: flex;
+        gap: 5px;
+        padding: 10px;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: space-between;
+        background: darkgray;
+        border-radius: 20px;
+    }
+
+    .adc {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: lime;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .box p {
+        padding-left: 10px;
+        text-align: justify;
+    }
+
+    .marca {
+        background: lime;
+        font-weight: bolder;
+        border-radius: 5px;
+        padding: 1px 3px;
+    }
+
+}
